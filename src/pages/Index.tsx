@@ -43,6 +43,13 @@ const Index = () => {
       <main className="flex-grow">
         <section id="home" className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto text-center">
+            <div className="flex justify-center mb-8">
+              <img
+                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
+                alt="Technology representation"
+                className="w-24 h-24 object-cover rounded-full border-4 border-accent shadow-lg animate-fadeIn"
+              />
+            </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-primary animate-fadeIn">
               Welcome to PragyaParikshan
             </h1>
@@ -70,10 +77,27 @@ const Index = () => {
         <section id="about" className="py-20 bg-secondary">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-4xl font-bold text-primary mb-8 text-center">About Us</h2>
-            <div className="prose max-w-none">
-              <p className="text-lg text-gray-600 mb-6">
-                PragyaParikshan is an advanced exam management system designed to automate seating arrangements, supervisor assignments, mark computation, and result generation. Our platform ensures accuracy, transparency, and efficiency in conducting exams across universities, colleges, schools, coaching institutes, and corporate training centres. With intelligent algorithms like Integer Linear Programming (ILP), we dynamically allocate seating while ensuring seamless management, even in low-network areas.
-              </p>
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div className="space-y-6">
+                <p className="text-lg text-gray-600">
+                  PragyaParikshan is an advanced exam management system designed to automate seating arrangements, supervisor assignments, mark computation, and result generation. Our platform ensures accuracy, transparency, and efficiency in conducting exams across universities, colleges, schools, coaching institutes, and corporate training centres.
+                </p>
+                <p className="text-lg text-gray-600">
+                  With intelligent algorithms like Integer Linear Programming (ILP), we dynamically allocate seating while ensuring seamless management, even in low-network areas.
+                </p>
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                <img
+                  src="https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+                  alt="Collaborative Learning"
+                  className="rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+                />
+                <img
+                  src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
+                  alt="Digital Education"
+                  className="rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+                />
+              </div>
             </div>
           </div>
         </section>
@@ -98,6 +122,13 @@ const Index = () => {
                   </div>
                 </div>
               ))}
+            </div>
+            <div className="mt-12 flex justify-center">
+              <img
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+                alt="Technology Integration"
+                className="w-full max-w-2xl rounded-lg shadow-xl"
+              />
             </div>
           </div>
         </section>
