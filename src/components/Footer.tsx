@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <h3 className="text-xl font-bold">ExamSage</h3>
+            <h3 className="text-xl font-bold">PragyaParikshan</h3>
             <p className="text-sm text-gray-300">
               Empowering education through efficient exam management
             </p>
@@ -52,7 +52,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-center space-x-2 text-sm text-gray-300">
                 <Mail size={16} />
-                <span>contact@examsage.edu</span>
+                <span>contact@pragyaparikshan.edu</span>
               </li>
               <li className="flex items-center space-x-2 text-sm text-gray-300">
                 <Phone size={16} />
@@ -68,7 +68,7 @@ const Footer = () => {
 
         <div className="mt-8 pt-8 border-t border-gray-700">
           <p className="text-center text-sm text-gray-300">
-            © {new Date().getFullYear()} ExamSage. All rights reserved.
+            © {new Date().getFullYear()} PragyaParikshan. All rights reserved.
           </p>
         </div>
       </div>

@@ -38,7 +38,7 @@ const Navbar = () => {
             to="/"
             className="text-primary font-bold text-xl tracking-tight animate-fadeIn"
           >
-            ExamSage
+            PragyaParikshan
           </Link>
 
           {/* Desktop Navigation */}

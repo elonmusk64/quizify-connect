@@ -12,10 +12,10 @@ const Index = () => {
         <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-primary animate-fadeIn">
-              Welcome to ExamSage
+              Welcome to PragyaParikshan
             </h1>
             <p className="mt-6 text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto animate-fadeIn" style={{ animationDelay: "0.2s" }}>
-              Streamline your examination process with our comprehensive management system. Empowering administrators, faculty, and students.
+              A smart and secure exam management system
             </p>
             <div className="mt-10 flex justify-center gap-4 animate-fadeIn" style={{ animationDelay: "0.4s" }}>
               <a
@@ -42,9 +42,9 @@ const Index = () => {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[
-                "Secure Exam Management",
-                "Real-time Results",
-                "Comprehensive Analytics",
+                "Automated Seating Allocation",
+                "Smart Mark Computation",
+                "Performance Tracking",
               ].map((feature, index) => (
                 <div
                   key={feature}
